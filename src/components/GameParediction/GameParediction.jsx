@@ -12,7 +12,7 @@ const GamePrediction = () => {
   }, []);
 
   return (
-    <div className="max-w-5xl mx-auto py-8">
+    <div className="max-w-5xl mx-auto py-8 px-5">
       <h1 className="text-lg font-bold text-gray-800 mb-6">GAME PREDICTIONS</h1>
       <div className="border border-gray-500 my-2"></div>
       <div className="border-none my-3">

@@ -3,7 +3,7 @@ import Marque from "./../Marque/Marque";
 
 function HolidaySale() {
   return (
-    <div className="rounded-lg border-2 my-4">
+    <div className="rounded-lg border-2 my-4 mx-4">
       <div className="text-center w-full">
         {/* Holiday Sale Section */}
         <div className="text-gray-100 bg-blue-600 p-5 py-8 rounded-t-lg flex justify-between items-end">
