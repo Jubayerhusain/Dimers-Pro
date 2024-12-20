@@ -4,6 +4,7 @@ import Categories from "./../Categories/Categories";
 import Article from "../Article/Article";
 import ExclusiveOffers from "../ExclusiveOffer/ExclusiveOffer";
 import GamePrediction from "../GameParediction/GameParediction";
+import HolidaySale from "../HolidaySale/HolidaySale";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <div className="col-span-6">
           <Article></Article>
           <GamePrediction></GamePrediction>
+          <HolidaySale></HolidaySale>
         </div>
         <div className="col-span-3">
           <ExclusiveOffers></ExclusiveOffers>
