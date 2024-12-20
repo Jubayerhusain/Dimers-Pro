@@ -66,7 +66,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="my-10">
         <ul className="space-y-2 flex items-center text-xl justify-evenly">
           <li>
             <a href="#" className="hover:underline text-gray-300">
