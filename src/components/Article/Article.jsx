@@ -77,16 +77,16 @@ const Article = () => {
   ];
 
   return (
-    <div className="p-6">
-      <div className="card  lg:card-side bg-base-100 shadow-xl">
-        <figure>
+    <div className="">
+      <div className="card lg:card-side bg-base-100 shadow-2xl mb-2">
+        <figure className="flex-1">
           <img
-            className="h-56 flex-1"
-            src="https://i.ytimg.com/vi/CkyZOd_ar2o/maxresdefault.jpg"
+            className="h-[300px] object-center"
+            src="https://images.actionnetwork.com/blog/2023/10/Best-Bets-10-27.jpg"
             alt="NBA bets"
           />
         </figure>
-        <div className="card-body flex-1">
+        <div className="card-body w-5/12 flex-1">
           <div className="flex items-center justify-between">
             <p>Ryan Leaver</p>
             <p>Dec 19,2024</p>
@@ -109,19 +109,19 @@ const Article = () => {
         {articles.map((article, index) => (
           <div
             key={index}
-            className="border flex flex-col justify-between rounded-lg overflow-hidden shadow-md"
+            className="border h-[300px] flex flex-col justify-between rounded-lg overflow-hidden shadow-md"
           >
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-40 object-cover"
+              className="w-full h-36 object-cover"
             />
             <div className="p-4">
               <div className="text-sm text-gray-500 mb-2 flex justify-between">
                 <span>{article.author}</span>
                 <span>{article.date}</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">{article.title}</h3>
+              <h3 className="text-md font-semibold mb-2">{article.title}</h3>
               <p className="text-gray-700 text-sm mb-4">
                 {article.description}
               </p>
