@@ -7,6 +7,7 @@ import GamePrediction from "../GameParediction/GameParediction";
 import HolidaySale from "../HolidaySale/HolidaySale";
 import NextBestBet from "../NextBestBet/NextBestBet";
 import LaLigaFutures from "../LaLigaFutures/LaLigaFutures";
+import LatestNews from './../LatestNews/LatestNews';
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
           <Article></Article>
           <GamePrediction></GamePrediction>
           <HolidaySale></HolidaySale>
+          <LatestNews></LatestNews>
         </div>
         <div className="col-span-3">
           <ExclusiveOffers></ExclusiveOffers>
