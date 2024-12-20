@@ -1,0 +1,75 @@
+[
+    {
+      "time": "11PM, DEC 20",
+      "teams": [
+        {
+          "name": "Ohio",
+          "percentage": 62,
+          "spread": -5.5,
+          "logo": "https://via.placeholder.com/40"
+        },
+        {
+          "name": "Jacksonville",
+          "percentage": 38,
+          "spread": "+5.5",
+          "logo": "https://via.placeholder.com/40"
+        }
+      ],
+      "type": "CFB"
+    },
+    {
+      "time": "12AM, DEC 21",
+      "teams": [
+        {
+          "name": "Valraiso",
+          "percentage": 41,
+          "spread": "+2.5",
+          "logo": "https://via.placeholder.com/40"
+        },
+        {
+          "name": "Western ",
+          "percentage": 59,
+          "spread": "-2.5",
+          "logo": "https://via.placeholder.com/40"
+        }
+      ],
+      "type": "CBB"
+    },
+    {
+      "time": "2AM, DEC 21",
+      "teams": [
+        {
+          "name": "Vallolid",
+          "percentage": 16,
+          "spread": "+650",
+          "logo": "https://via.placeholder.com/40"
+        },
+        {
+          "name": "Girona",
+          "percentage": 63,
+          "spread": "-225",
+          "logo": "https://via.placeholder.com/40"
+        }
+      ],
+      "type": "ESP"
+    },
+    {
+      "time": "2:30AM, DEC 21",
+      "teams": [
+        {
+          "name": "Tulane",
+          "percentage": 26,
+          "spread": "+10.5",
+          "logo": "https://via.placeholder.com/40"
+        },
+        {
+          "name": "Florida",
+          "percentage": 74,
+          "spread": "-10.5",
+          "logo": "https://via.placeholder.com/40"
+        }
+      ],
+      "type": "CFB"
+    }
+  ]
+  

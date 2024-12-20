@@ -6,7 +6,7 @@ const Article = () => {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ542Qbz2L3BDd1h6Xfo9cpF7OjSmRsRi7ogg&s",
       title:
-        "NBA Picks Today: Thursday's Best Bets Include Bulls vs. Celtics Play [12/19/2024]",
+        "NBA Picks Today: Thursday's Best Bets Include[12/19/2024]",
       category: "NBA",
       author: "Ryan Leaver",
       date: "Dec 19, 2024",
@@ -23,14 +23,14 @@ const Article = () => {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEczB0MmxBGdAtrdv0oNvHQ1waOeWLm0uSBA&s",
       title:
-        "NFL Betting Strategy: How to Bet on Week 16 - Michael Penix Jr. Gets the Start",
+        "NFL Betting Strategy: How to Bet on Week 16 ",
       category: "NFL",
       author: "Dave Garofolo",
       date: "Dec 18, 2024",
     },
     {
       image: "https://i.ytimg.com/vi/jwozE3phyJA/maxresdefault.jpg",
-      title: "NBA Player Props Today: Thursday's Top Plays Include Jalen Duren",
+      title: "NBA Player Props Today: Thursday's Top",
       category: "NBA",
       author: "Dave Garofolo",
       date: "Dec 19, 2024",
@@ -38,7 +38,7 @@ const Article = () => {
     {
       image:
         "https://vsin.com/wp-content/uploads/2024/11/USATSI_22784245_168384654_lowres.jpg?w=1068&h=0&crop=1",
-      title: "College Basketball Picks Today: Two Spread Plays [12/19/2024]",
+      title: "College Basketball Picks Today: plays [12/19/2024]",
       category: "CBB",
       author: "Dave Garofolo",
       date: "Dec 19, 2024",
@@ -56,7 +56,7 @@ const Article = () => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl1QWXxJh6J8n4WOHbEiVCCA7cKdjSoUUlGA&s",
       title: "Golf Betting Strategy: Master Your Swing",
       category: "Golf",
-      author: "Emily Clark",
+      author: "Emily",
       date: "Dec 21, 2024",
     },
     {
@@ -105,7 +105,7 @@ const Article = () => {
           <h1 className="text-md font-bold text-black">NBA</h1>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-3">
         {articles.map((article, index) => (
           <div
             key={index}
@@ -117,7 +117,7 @@ const Article = () => {
               className="w-full h-36 object-cover"
             />
             <div className="p-4">
-              <div className="text-sm text-gray-500 mb-2 flex justify-between">
+              <div className="text-xs text-gray-500 mb-2 flex justify-between">
                 <span>{article.author}</span>
                 <span>{article.date}</span>
               </div>

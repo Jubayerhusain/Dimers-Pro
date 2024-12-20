@@ -312,11 +312,14 @@ const DropNav = () => {
                 tabIndex={0}
                 className="dropdown-content menu bg-slate-900 text-gray-300 rounded-box z-[1] w-52 p-2 shadow"
               >
-                <li>
-                  <a>Item 1</a>
-                </li>
-                <li>
-                  <a>Item 2</a>
+                <li className="hover:bg-blue-500 rounded-md">
+                  <a>picks</a>
+                </li>{" "}
+                <li className="hover:bg-blue-500 rounded-md">
+                  <a>parlays</a>
+                </li>{" "}
+                <li className="hover:bg-blue-500 rounded-md">
+                  <a>Live Bets</a>
                 </li>
               </ul>
             </div>
