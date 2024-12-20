@@ -8,6 +8,7 @@ import HolidaySale from "../HolidaySale/HolidaySale";
 import NextBestBet from "../NextBestBet/NextBestBet";
 import LaLigaFutures from "../LaLigaFutures/LaLigaFutures";
 import LatestNews from './../LatestNews/LatestNews';
+// import MoreDimers from "../MoreDimers/MoreDimers";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
           <GamePrediction></GamePrediction>
           <HolidaySale></HolidaySale>
           <LatestNews></LatestNews>
+          {/* <MoreDimers></MoreDimers> */}
         </div>
         <div className="col-span-3">
           <ExclusiveOffers></ExclusiveOffers>
